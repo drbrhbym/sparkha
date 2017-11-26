@@ -6,3 +6,4 @@ export JAVA_HOME=/usr/java/java
 export SPARK_WORKER_MEMORY=2g
 export SPARK_WORKER_CORES=1
 export SPARK_WORKER_INSTANCES=1
+export SPARK_DIST_CLASSPATH=$(/opt/hadoop/bin/hadoop classpath)
